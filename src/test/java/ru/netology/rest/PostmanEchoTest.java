@@ -18,7 +18,6 @@ public class PostmanEchoTest {
                 // Проверки
                 .then().log().all()
                 .statusCode(200)
-                .body("data", org.hamcrest.Matchers.equalTo("Not Correct Answer"));
-        ;
+                .body("data", org.hamcrest.Matchers.equalTo("Leg"));
     }
 }
